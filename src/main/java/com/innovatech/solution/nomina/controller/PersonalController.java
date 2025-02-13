@@ -44,7 +44,7 @@ public class PersonalController {
         personaService.desactivar(id);
     }
 
-    @PostMapping("/busqueda-personas")
+    @GetMapping("/busqueda-personas")
     public ResponseEntity<List<Persona>> busquedaPagos(@RequestBody BusquedaPersonasDTO busquedaDTO){
         return new ResponseEntity<List<Persona>>(consultasPersonaService.busquedaPersonas(busquedaDTO), HttpStatus.OK);
     }

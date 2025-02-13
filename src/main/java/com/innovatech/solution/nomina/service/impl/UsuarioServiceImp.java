@@ -16,7 +16,7 @@ import java.util.List;
 
 @Repository
 @Transactional
-public class UsuarioServiceImp implements UsuarioService {
+public class    UsuarioServiceImp implements UsuarioService {
     @PersistenceContext
     EntityManager entityManager;
     @Autowired
