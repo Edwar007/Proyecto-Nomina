@@ -1,8 +1,8 @@
 package com.innovatech.solution.nomina.controller;
-import com.innovatech.solution.nomina.dta.PagoNomina;
-import com.innovatech.solution.nomina.dto.BusquedaPagosDTO;
-import com.innovatech.solution.nomina.dto.JasperDTO;
-import com.innovatech.solution.nomina.dto.PagoNominaDTO;
+import com.innovatech.solution.nomina.persistencia.dta.PagoNomina;
+import com.innovatech.solution.nomina.persistencia.dto.BusquedaPagosDTO;
+import com.innovatech.solution.nomina.persistencia.dto.JasperDTO;
+import com.innovatech.solution.nomina.persistencia.dto.PagoNominaDTO;
 import com.innovatech.solution.nomina.service.ConsultasPagoService;
 import com.innovatech.solution.nomina.service.PagoNominaService;
 import org.springframework.beans.factory.annotation.Autowired;

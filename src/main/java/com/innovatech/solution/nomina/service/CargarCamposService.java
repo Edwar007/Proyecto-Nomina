@@ -1,6 +1,6 @@
 package com.innovatech.solution.nomina.service;
 
-import com.innovatech.solution.nomina.dto.*;
+import com.innovatech.solution.nomina.persistencia.dto.*;
 
 import java.util.List;
 

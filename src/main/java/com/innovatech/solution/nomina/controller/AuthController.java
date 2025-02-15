@@ -1,6 +1,6 @@
 package com.innovatech.solution.nomina.controller;
 
-import com.innovatech.solution.nomina.dta.Usuario;
+import com.innovatech.solution.nomina.persistencia.dta.Usuario;
 import com.innovatech.solution.nomina.service.UsuarioService;
 import com.innovatech.solution.nomina.utils.JWTUtil;
 import org.springframework.beans.factory.annotation.Autowired;

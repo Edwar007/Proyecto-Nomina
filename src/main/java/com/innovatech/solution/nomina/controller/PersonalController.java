@@ -1,8 +1,8 @@
 package com.innovatech.solution.nomina.controller;
 
-import com.innovatech.solution.nomina.dta.Persona;
-import com.innovatech.solution.nomina.dto.BusquedaPersonasDTO;
-import com.innovatech.solution.nomina.dto.PersonaDTO;
+import com.innovatech.solution.nomina.persistencia.dta.Persona;
+import com.innovatech.solution.nomina.persistencia.dto.BusquedaPersonasDTO;
+import com.innovatech.solution.nomina.persistencia.dto.PersonaDTO;
 import com.innovatech.solution.nomina.service.ConsultasPersonaService;
 import com.innovatech.solution.nomina.service.PersonaService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,7 +44,7 @@ public class PersonalController {
         personaService.desactivar(id);
     }
 
-    @GetMapping("/busqueda-personas")
+    @PostMapping("/busqueda-personas")
     public ResponseEntity<List<Persona>> busquedaPagos(@RequestBody BusquedaPersonasDTO busquedaDTO){
         return new ResponseEntity<List<Persona>>(consultasPersonaService.busquedaPersonas(busquedaDTO), HttpStatus.OK);
     }

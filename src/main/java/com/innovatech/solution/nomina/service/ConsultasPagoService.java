@@ -1,7 +1,7 @@
 package com.innovatech.solution.nomina.service;
 
-import com.innovatech.solution.nomina.dta.PagoNomina;
-import com.innovatech.solution.nomina.dto.BusquedaPagosDTO;
+import com.innovatech.solution.nomina.persistencia.dta.PagoNomina;
+import com.innovatech.solution.nomina.persistencia.dto.BusquedaPagosDTO;
 
 import java.util.List;
 

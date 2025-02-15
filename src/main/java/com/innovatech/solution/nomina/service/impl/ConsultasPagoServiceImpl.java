@@ -1,10 +1,10 @@
 package com.innovatech.solution.nomina.service.impl;
 
 import com.innovatech.solution.nomina.criteria.PagoNominaCriteria;
-import com.innovatech.solution.nomina.dta.PagoNomina;
-import com.innovatech.solution.nomina.dta.PagoNomina_;
-import com.innovatech.solution.nomina.dto.BusquedaPagosDTO;
-import com.innovatech.solution.nomina.repository.PagoNominaRepository;
+import com.innovatech.solution.nomina.persistencia.dta.PagoNomina_;
+import com.innovatech.solution.nomina.persistencia.dta.PagoNomina;
+import com.innovatech.solution.nomina.persistencia.dto.BusquedaPagosDTO;
+import com.innovatech.solution.nomina.persistencia.repository.PagoNominaRepository;
 import com.innovatech.solution.nomina.service.ConsultasPagoService;
 import io.github.jhipster.service.QueryService;
 import io.github.jhipster.service.filter.DoubleFilter;

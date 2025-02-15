@@ -1,28 +1,18 @@
 package com.innovatech.solution.nomina.service.impl;
 
-import com.innovatech.solution.nomina.criteria.PagoNominaCriteria;
-import com.innovatech.solution.nomina.dta.PagoNomina_;
-import com.innovatech.solution.nomina.dto.BusquedaPagosDTO;
-import com.innovatech.solution.nomina.dto.JasperDTO;
-import com.innovatech.solution.nomina.dto.PagoNominaDTO;
-import com.innovatech.solution.nomina.dta.PagoNomina;
-import com.innovatech.solution.nomina.repository.PagoNominaRepository;
+import com.innovatech.solution.nomina.persistencia.dto.JasperDTO;
+import com.innovatech.solution.nomina.persistencia.dto.PagoNominaDTO;
+import com.innovatech.solution.nomina.persistencia.dta.PagoNomina;
+import com.innovatech.solution.nomina.persistencia.repository.PagoNominaRepository;
 import com.innovatech.solution.nomina.service.PagoNominaService;
-import io.github.jhipster.service.QueryService;
-import io.github.jhipster.service.filter.DoubleFilter;
-import io.github.jhipster.service.filter.LongFilter;
-import io.github.jhipster.service.filter.StringFilter;
 import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.engine.util.JRLoader;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ByteArrayResource;
-import org.springframework.data.jpa.domain.Specification;
 import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ResourceUtils;
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.text.SimpleDateFormat;

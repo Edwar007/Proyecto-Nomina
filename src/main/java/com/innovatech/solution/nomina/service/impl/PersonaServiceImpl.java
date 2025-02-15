@@ -1,8 +1,8 @@
 package com.innovatech.solution.nomina.service.impl;
 
-import com.innovatech.solution.nomina.dto.PersonaDTO;
-import com.innovatech.solution.nomina.dta.Persona;
-import com.innovatech.solution.nomina.repository.PersonaRepository;
+import com.innovatech.solution.nomina.persistencia.dto.PersonaDTO;
+import com.innovatech.solution.nomina.persistencia.dta.Persona;
+import com.innovatech.solution.nomina.persistencia.repository.PersonaRepository;
 import com.innovatech.solution.nomina.service.PersonaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

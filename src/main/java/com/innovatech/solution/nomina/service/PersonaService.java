@@ -1,7 +1,6 @@
 package com.innovatech.solution.nomina.service;
 
-import com.innovatech.solution.nomina.dta.Persona;
-import com.innovatech.solution.nomina.dto.PersonaDTO;
+import com.innovatech.solution.nomina.persistencia.dto.PersonaDTO;
 import java.util.List;
 
 public interface PersonaService {

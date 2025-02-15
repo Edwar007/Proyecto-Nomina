@@ -1,8 +1,9 @@
 package com.innovatech.solution.nomina.service.impl;
 
-import com.innovatech.solution.nomina.dta.*;
-import com.innovatech.solution.nomina.dto.*;
-import com.innovatech.solution.nomina.repository.*;
+
+import com.innovatech.solution.nomina.persistencia.dta.*;
+import com.innovatech.solution.nomina.persistencia.dto.*;
+import com.innovatech.solution.nomina.persistencia.repository.*;
 import com.innovatech.solution.nomina.service.CargarCamposService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -58,7 +59,7 @@ public class CargarCamposServiceImp implements CargarCamposService {
         for(Bancos ban: listaBancos){
             lBancosDTO.add(BancosDTO.builder()
                     .id(ban.getId())
-                    .razonSocial(ban.getRazonSocial())
+                    .nombre(ban.getNombre())
                     .build());
         }
         return lBancosDTO;

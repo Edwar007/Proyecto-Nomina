@@ -1,12 +1,12 @@
 package com.innovatech.solution.nomina.service.impl;
 
 import com.innovatech.solution.nomina.criteria.PersonaCriteria;
-import com.innovatech.solution.nomina.dta.Area_;
-import com.innovatech.solution.nomina.dta.Cargo_;
-import com.innovatech.solution.nomina.dta.Persona;
-import com.innovatech.solution.nomina.dta.Persona_;
-import com.innovatech.solution.nomina.dto.BusquedaPersonasDTO;
-import com.innovatech.solution.nomina.repository.PersonaRepository;
+import com.innovatech.solution.nomina.persistencia.dta.Area_;
+import com.innovatech.solution.nomina.persistencia.dta.Cargo_;
+import com.innovatech.solution.nomina.persistencia.dta.Persona;
+import com.innovatech.solution.nomina.persistencia.dta.Persona_;
+import com.innovatech.solution.nomina.persistencia.dto.BusquedaPersonasDTO;
+import com.innovatech.solution.nomina.persistencia.repository.PersonaRepository;
 import com.innovatech.solution.nomina.service.ConsultasPersonaService;
 import io.github.jhipster.service.QueryService;
 import io.github.jhipster.service.filter.DoubleFilter;

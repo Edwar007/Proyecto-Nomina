@@ -78,7 +78,7 @@ async function cargarBancos() {
   for (let ban of bancos) {
     let nuevaOpcion = document.createElement("option");
     nuevaOpcion.value = ban.id;
-    nuevaOpcion.text = ban.razonSocial;
+    nuevaOpcion.text = ban.nombre;
     select.add(nuevaOpcion);
   } 
 }

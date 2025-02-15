@@ -1,6 +1,6 @@
 package com.innovatech.solution.nomina.controller;
 
-import com.innovatech.solution.nomina.dto.*;
+import com.innovatech.solution.nomina.persistencia.dto.*;
 import com.innovatech.solution.nomina.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

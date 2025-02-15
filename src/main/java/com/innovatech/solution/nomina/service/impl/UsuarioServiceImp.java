@@ -1,8 +1,8 @@
 package com.innovatech.solution.nomina.service.impl;
 
-import com.innovatech.solution.nomina.dta.Usuario;
-import com.innovatech.solution.nomina.dto.UsuarioDTO;
-import com.innovatech.solution.nomina.repository.impl.UsuarioRepository;
+import com.innovatech.solution.nomina.persistencia.dta.Usuario;
+import com.innovatech.solution.nomina.persistencia.dto.UsuarioDTO;
+import com.innovatech.solution.nomina.persistencia.repository.impl.UsuarioRepository;
 import com.innovatech.solution.nomina.service.UsuarioService;
 import de.mkammerer.argon2.Argon2;
 import de.mkammerer.argon2.Argon2Factory;

@@ -125,7 +125,7 @@ async function buscarPersonas() {
             let filaPersona = '<tr><td>' + per.id + '</td><td>' + per.identificacion + '</td><td>' + per.nombres + '</td><td>' + per.apellidos + '</td><td>' + per.salario 
             + '</td><td>' + per.cuentaBancaria + '</td><td>' + per.fechaIngreso + '</td><td>' + per.fechaNac + '</td><td>' + per.fechaRetiro + '<td>' + per.estado + '</td><td>' + per.telefono 
             + '</td><td>' + per.correo + '</td><td>' + per.area.nombre + '</td><td>' + per.cargo.nombre + '</td><td>' + per.tipoContrato.nombre 
-            + '</td><td>' + per.banco.razonSocial + '</td><td>' + per.eps.nombre + '</td><td>' +  per.pensiones.nombre + '</td>'
+            + '</td><td>' + per.banco.nombre + '</td><td>' + per.eps.nombre + '</td><td>' +  per.pensiones.nombre + '</td>'
             + '<td><button onclick="actualizarPersona(' + per.id + ')">Actualizar</button></td>'   + '<td><button onclick="eliminarRegistro(' + per.id + ')">Eliminar</button></td></tr>'; 
 
             listadoHtml += filaPersona;
