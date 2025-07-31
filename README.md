@@ -45,7 +45,7 @@ Para correr este proyecto en local, sigue estos pasos:
 
 ```bash
 # 1. Clona el repositorio
-git clone https://github.com/tuusuario/nombre-del-repo.git
+git clone https://github.com/Edwar007/Proyecto-Nomina.git
 
 # 2. Entra al directorio del proyecto
-cd nombre-del-repo
+cd Proyecto-Nomina
